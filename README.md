@@ -10,9 +10,9 @@ This demo illustrates a Single sign-on with Blinkplan portal.
 
 ### `Get endpoint form values`
 
-![form values sample code](./sample_code.png)
+![form values sample code](/src/sample_code.png)
 
-The firstName, otherNames, email, userGUID, bvn fields are to be to be passed from the user \
+The `firstName`, `otherNames`, `email`, `userGUID`, `bvn` fields are to be to be passed from the user \
 data in your app's store or Database. All other fields are defaults. Pass them as is.
 
 ## Test the app
