@@ -10,21 +10,7 @@ This demo illustrates a Single sign-on with Blinkplan portal.
 
 ### `Get endpoint form values`
 
-let values = {
-firstName:`userFirstName`,
-otherNames: `userLastName` || `userFirstName`,
-email:`userEmail`,
-userGUID: `userID`,
-bvn:`userBVN`,
-dateOfBirth: new Date().toJSON(),
-password: "AGSMEISapp@123",
-role: "APPLICANT",
-userSource: "AGSMEIS",
-authorization: "bearer no-authorization-key",
-centerName: "default",
-centerOID: 0,
-phoneNumber: "080",
-}
+![form values sample code](./sample_code.png)
 
 The firstName, otherNames, email, userGUID, bvn fields are to be to be passed from the user \
 data in your app's store or Database. All other fields are defaults. Pass them as is.
